@@ -75,7 +75,11 @@ public final class ConfigReader {
         FileInputStream fin = new FileInputStream(new File(fileName));
         try {
           Yaml yaml = new Yaml();
-          propsYaml = (Map<String, Object>) yaml.load(fin);
+          Object obj = yaml.load(fin);
+          System.out.println("debug staging ci cast exception");
+          System.out.println(obj.getClass().toString());
+          System.out.println(obj.toString());
+          propsYaml = (Map<String, Object>) obj;
           LOG.log(Level.FINE, "Successfully read config file {0}", fileName);
         } finally {
           fin.close();
