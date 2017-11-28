@@ -77,6 +77,7 @@ public final class ConfigReader {
           Yaml yaml = new Yaml();
           Object obj = yaml.load(fin);
           System.out.println("debug staging ci cast exception");
+          System.out.println(fileName);
           System.out.println(obj.getClass().toString());
           System.out.println(obj.toString());
           propsYaml = (Map<String, Object>) obj;
