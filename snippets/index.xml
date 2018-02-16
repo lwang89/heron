@@ -12,6 +12,17 @@
     
     <item>
       <title></title>
+      <link>https://twitter.github.io/heron/snippets/heron-eco-api/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://twitter.github.io/heron/snippets/heron-eco-api/</guid>
+      <description>Heron processing topologies can be written using an API called the Heron ECO API. The ECO API is currently available to work with spouts and bolts from the following packages:
+ org.apache.storm  We will expand compatibility based on feedback we get from the community.
+ Although this document focuses on the ECO API, both the Streamlet API and Topology API topologies you have built can still be used with Heron</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://twitter.github.io/heron/snippets/heron-on-kubernetes-config/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -26,8 +37,9 @@ Zookeeper To run Heron on k8s, you will need a Zookeeper cluster. You can choose
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://twitter.github.io/heron/snippets/heron-streamlet-api/</guid>
-      <description>Heron processing topologies can be written using an API called the Heron Functional API. The Heron Functional API is currently available for the following languages:
- Java    Although the original topology API can still be used with Heron (which means that all of your older topologies will still run) we strongly recommend creating all new topologies using the Heron Functional API, for reasons outlined in the section below.</description>
+      <description>Heron processing topologies can be written using an API called the Heron Streamlet API. The Heron Streamlet API is currently available for the following languages:
+ Java    Although this document covers the new Heron Streamlet API, topologies created using the original topology API can still be used with Heron (which means that all of your older topologies will still run).
+ For a more in-depth conceptual guide to the new API, see The Heron Streamlet API.</description>
     </item>
     
   </channel>

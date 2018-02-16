@@ -3,6 +3,10 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://twitter.github.io/heron/snippets/heron-eco-api/</loc>
+  </url>
+  
+  <url>
     <loc>https://twitter.github.io/heron/snippets/heron-on-kubernetes-config/</loc>
   </url>
   
@@ -133,6 +137,18 @@
   </url>
   
   <url>
+    <loc>https://twitter.github.io/heron/docs/operators/deployment/schedulers/kubernetes/</loc>
+  </url>
+  
+  <url>
+    <loc>https://twitter.github.io/heron/docs/operators/deployment/schedulers/kubernetes-helm/</loc>
+  </url>
+  
+  <url>
+    <loc>https://twitter.github.io/heron/docs/operators/deployment/schedulers/standalone/</loc>
+  </url>
+  
+  <url>
     <loc>https://twitter.github.io/heron/docs/operators/deployment/uploaders/</loc>
   </url>
   
@@ -170,10 +186,6 @@
   
   <url>
     <loc>https://twitter.github.io/heron/docs/operators/configuration/config-intro/</loc>
-  </url>
-  
-  <url>
-    <loc>https://twitter.github.io/heron/docs/operators/deployment/schedulers/kubernetes/</loc>
   </url>
   
   <url>
@@ -284,6 +296,14 @@
   
   <url>
     <loc>https://twitter.github.io/heron/docs/operators/heron-api-server/</loc>
+  </url>
+  
+  <url>
+    <loc>https://twitter.github.io/heron/docs/developers/java/eco-api/</loc>
+  </url>
+  
+  <url>
+    <loc>https://twitter.github.io/heron/docs/concepts/streamlet-api/</loc>
   </url>
   
   <url>
